@@ -43,18 +43,18 @@ sections:
       actions:
         justifyContent: flex-start
     type: HeroSection
-  - type: DividerSection
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-8
-          - pb-8
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderWidth: 1
-        borderStyle: solid
+#  - type: DividerSection
+#    styles:
+#      self:
+#        width: wide
+#        padding:
+#          - pt-8
+#          - pb-8
+#          - pl-4
+#          - pr-4
+#        justifyContent: center
+#        borderWidth: 1
+#        borderStyle: solid
 #  - type: MediaGallerySection
 #    colors: colors-f
 #    subtitle: 'I worked with these folks:'
@@ -155,38 +155,38 @@ sections:
       subtitle:
         textAlign: left
     subtitle: 'You can find me here:'
-  - type: DividerSection
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-12
-          - pb-12
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderWidth: 1
-        borderStyle: solid
-  - type: LabelsSection
-    colors: colors-f
-    subtitle: 'Skills:'
-    items:
-      - type: Label
-        label: 'WEB 1, 2, 3'
-      - type: Label
-        label: React
-      - type: Label
-        label: Microsoft Office
-      - type: Label
-        label: Next.js
-      - type: Label
-        label: Netlify
-      - type: Label
-        label: Pancakes
-      - type: Label
-        label: C++
-      - type: Label
-        label: Swift
+#  - type: DividerSection
+#    styles:
+#      self:
+#        width: wide
+#        padding:
+#          - pt-12
+#          - pb-12
+#          - pl-4
+#          - pr-4
+#        justifyContent: center
+#        borderWidth: 1
+#        borderStyle: solid
+#  - type: LabelsSection
+#    colors: colors-f
+#    subtitle: 'Skills:'
+#    items:
+#      - type: Label
+#        label: 'WEB 1, 2, 3'
+#      - type: Label
+#        label: React
+#      - type: Label
+#        label: Microsoft Office
+#      - type: Label
+#        label: Next.js
+#      - type: Label
+#        label: Netlify
+#      - type: Label
+#        label: Pancakes
+#      - type: Label
+#        label: C++
+#      - type: Label
+#        label: Swift
 #  - type: DividerSection
 #    styles:
 #      self:
@@ -298,18 +298,18 @@ sections:
 #        textAlign: left
 #      subtitle:
 #        textAlign: left
-  - type: DividerSection
-    styles:
-      self:
-        width: wide
-        padding:
-          - pt-12
-          - pb-12
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderWidth: 1
-        borderStyle: solid
+#  - type: DividerSection
+#    styles:
+#      self:
+#        width: wide
+#        padding:
+#          - pt-12
+#          - pb-12
+#          - pl-4
+#          - pr-4
+#        justifyContent: center
+#        borderWidth: 1
+#        borderStyle: solid
 #  - type: ContactSection
 #    backgroundSize: full
 #    title: "Let’s talk... \U0001F4AC"
