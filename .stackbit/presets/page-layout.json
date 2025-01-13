@@ -418,7 +418,7 @@
                         "type": "FeaturedItemsSection",
                         "colors": "colors-f",
                         "title": "",
-                        "subtitle": "You can find me here:",
+                        "subtitle": "",
                         "actions": [],
                         "items": [
                             {
