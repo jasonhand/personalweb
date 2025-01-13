@@ -10,6 +10,12 @@ featuredImage:
   type: ImageBlock
   url: /images/authentic.jpg
   altText: Post thumbnail image
+media:
+  url: /images/authentic.jpg
+  altText: altText of the image
+  caption: Caption of the image
+  elementId: ''
+  type: ImageBlock  
 bottomSections:
   - elementId: ''
     type: RecentPostsSection
@@ -19,7 +25,7 @@ bottomSections:
     showDate: true
     showAuthor: false
     showExcerpt: true
-    recentCount: 2
+    recentCount: 3
     styles:
       self:
         height: auto

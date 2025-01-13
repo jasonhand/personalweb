@@ -9,7 +9,7 @@ backgroundImage:
   backgroundPosition: center
   backgroundRepeat: no-repeat
   opacity: 75
-date: '2021-11-03'
+date: '2025-01-13'
 author: content/data/team/jason-hand.json
 excerpt: >-
   More context that may or may not be helpful
@@ -32,7 +32,7 @@ bottomSections:
     showDate: true
     showAuthor: false
     showExcerpt: true
-    recentCount: 2
+    recentCount: 3
     styles:
       self:
         height: auto

@@ -2,7 +2,7 @@
 type: PostLayout
 title: Why DevRel Should Focus on Outcomes, Not Metrics 📊
 colors: colors-a
-date: '2025-01-013'
+date: '2025-01-13'
 author: content/data/team/jason-hand.json
 excerpt: >-
   More context that may or may not be helpful
@@ -10,6 +10,12 @@ featuredImage:
   type: ImageBlock
   url: /images/devrel-impact.jpg
   altText: Post thumbnail image
+media:
+  url: /images/devrel-impact.jpg
+  altText: altText of the image
+  caption: Caption of the image
+  elementId: ''
+  type: ImageBlock  
 bottomSections:
   - elementId: ''
     type: RecentPostsSection
@@ -19,7 +25,7 @@ bottomSections:
     showDate: true
     showAuthor: false
     showExcerpt: true
-    recentCount: 2
+    recentCount: 3
     styles:
       self:
         height: auto
