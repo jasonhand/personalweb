@@ -10,6 +10,12 @@ featuredImage:
   type: ImageBlock
   url: /images/boundaries.jpg
   altText: Post thumbnail image
+media:
+  url: /images/boundaries.jpg
+  altText: altText of the image
+  caption: Caption of the image
+  elementId: ''
+  type: ImageBlock
 bottomSections:
   - elementId: ''
     type: RecentPostsSection
