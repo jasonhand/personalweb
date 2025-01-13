@@ -5,7 +5,7 @@
         "type": "Header",
         "headerVariant": "variant-c",
         "isSticky": false,
-        "title": "Personal",
+        "title": "j:hand",
         "isTitleVisible": true,
         "primaryLinks": [
             {
@@ -38,6 +38,13 @@
                 "label": "GitHub",
                 "url": "https://github.com/jasonhand",
                 "icon": "github"
+            },
+            {
+                "type": "Social",
+                "altText": "TikTok",
+                "label": "TikTok",
+                "url": "https://tiktok.com/jasonhand",
+                "icon": "tiktok"
             }
         ],
         "styles": {
