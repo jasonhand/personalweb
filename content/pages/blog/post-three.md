@@ -1,55 +1,48 @@
 ---
 type: PostLayout
-title: Measuring Impact: Why DevRel Should Focus on Outcomes, Not Metrics 📊
+title: Why DevRel Should Focus on Outcomes, Not Metrics 📊
 colors: colors-a
-date: '2025-01-13'
-author: content/data/team/your-name.json
+date: '2025-01-013'
+author: content/data/team/jason-hand.json
 excerpt: >-
-Developer Relations is more than numbers. Here’s why focusing on outcomes over metrics leads to stronger communities and better products.
+  More context that may or may not be helpful
 featuredImage:
-type: ImageBlock
-url: /images/devrel-outcome.jpg
-altText: Measuring DevRel impact through outcomes
-media:
-url: /images/devrel-impact.jpg
-altText: Developer Relations impact
-caption: Shifting focus from metrics to outcomes in DevRel
-elementId: ''
-type: ImageBlock
+  type: ImageBlock
+  url: /images/devrel-impact.jpg
+  altText: Post thumbnail image
 bottomSections:
-
-elementId: ''
-type: RecentPostsSection
-colors: colors-f
-variant: variant-d
-subtitle: Recent posts
-showDate: true
-showAuthor: false
-showExcerpt: true
-recentCount: 2
-styles:
-self:
-height: auto
-width: wide
-margin:
-- mt-0
-- mb-0
-- ml-0
-- mr-0
-padding:
-- pt-12
-- pb-56
-- pr-4
-- pl-4
-justifyContent: center
-title:
-textAlign: left
-subtitle:
-textAlign: left
-actions:
-justifyContent: center
-showFeaturedImage: true
-showReadMoreLink: true
+  - elementId: ''
+    type: RecentPostsSection
+    colors: colors-f
+    variant: variant-d
+    subtitle: Recent posts
+    showDate: true
+    showAuthor: false
+    showExcerpt: true
+    recentCount: 2
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-56
+          - pr-4
+          - pl-4
+        justifyContent: center
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: center
+    showFeaturedImage: true
+    showReadMoreLink: true
 
 ---
 
