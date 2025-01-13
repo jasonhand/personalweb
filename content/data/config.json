@@ -38,13 +38,6 @@
                 "label": "GitHub",
                 "url": "https://github.com/jasonhand",
                 "icon": "github"
-            },
-            {
-                "type": "Social",
-                "altText": "TikTok",
-                "label": "TikTok",
-                "url": "https://tiktok.com/jasonhand",
-                "icon": "tiktok"
             }
         ],
         "styles": {
@@ -64,14 +57,14 @@
             },
             {
                 "type": "Link",
-                "label": "Contact",
-                "url": "mailto:thisismyemail.@myemail.me",
+                "label": "Blog",
+                "url": "/blog",
                 "altText": ""
             },
             {
                 "type": "Link",
-                "label": "Blog",
-                "url": "/blog",
+                "label": "Podcast",
+                "url": "https://communitypulse.io",
                 "altText": ""
             }
         ]
