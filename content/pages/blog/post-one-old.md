@@ -2,62 +2,54 @@
 type: PostLayout
 title: Mastering Just Enough AI: A DevRel Guide to Staying Relevant 🤖
 colors: colors-a
-backgroundImage:
-  type: BackgroundImage
-  url: /images/bg2.jpg
-  backgroundSize: cover
-  backgroundPosition: center
-  backgroundRepeat: no-repeat
-  opacity: 75
 date: '2025-01-13'
 author: content/data/team/jason-hand.json
 excerpt: >-
-  A candid look at how much AI knowledge Developer Relations professionals truly need to excel—without getting lost in the hype.
+A candid look at how much AI knowledge Developer Relations professionals truly need to excel—without getting lost in the hype.
 featuredImage:
-  type: ImageBlock
-  url: /images/featured-Image2.jpg
-  altText: Post thumbnail image
+type: ImageBlock
+url: /images/ai-devrel-featured.jpg
+altText: Developer Relations and AI
 media:
-  url: /images/post-4.png
-  altText: altText of the image
-  caption: Caption of the image
-  elementId: ''
-  type: ImageBlock
+url: /images/ai-devrel-thumbnail.jpg
+altText: AI in Developer Relations
+caption: Bridging the gap between AI technology and developer communities
+elementId: ''
+type: ImageBlock
 bottomSections:
-  - elementId: ''
-    type: RecentPostsSection
-    colors: colors-f
-    variant: variant-d
-    subtitle: Recent posts
-    showDate: true
-    showAuthor: false
-    showExcerpt: true
-    recentCount: 2
-    styles:
-      self:
-        height: auto
-        width: wide
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-12
-          - pb-56
-          - pr-4
-          - pl-4
-        justifyContent: center
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      actions:
-        justifyContent: center
-    showFeaturedImage: true
-    showReadMoreLink: true
 
----
+elementId: ''
+type: RecentPostsSection
+colors: colors-f
+variant: variant-d
+subtitle: Recent posts
+showDate: true
+showAuthor: false
+showExcerpt: true
+recentCount: 2
+styles:
+self:
+height: auto
+width: wide
+margin:
+- mt-0
+- mb-0
+- ml-0
+- mr-0
+padding:
+- pt-12
+- pb-56
+- pr-4
+- pl-4
+justifyContent: center
+title:
+textAlign: left
+subtitle:
+textAlign: left
+actions:
+justifyContent: center
+showFeaturedImage: true
+showReadMoreLink: true
 
 Developer Relations (DevRel) professionals don’t need to be AI experts, but ignoring AI altogether is a fast track to irrelevance. The rise of AI in developer tools, APIs, and workflows means that DevRel teams can’t afford to treat it like a black box. But here’s the good news—you don’t need to build models or memorize the math behind neural networks to be effective. What you need is a working knowledge of how AI integrates into the developer experience and how to explain it in plain, relatable terms.
 
