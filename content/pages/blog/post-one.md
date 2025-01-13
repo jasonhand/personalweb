@@ -15,7 +15,7 @@ excerpt: >-
   A candid look at how much AI knowledge Developer Relations professionals truly need to excel—without getting lost in the hype.
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image2.jpg
+  url: https://picsum.photos/200/300
   altText: Post thumbnail image
 media:
   url: /images/post-4.png

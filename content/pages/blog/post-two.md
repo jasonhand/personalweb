@@ -15,7 +15,7 @@ excerpt: >-
   More context that may or may not be helpful
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image2.jpg
+  url: https://picsum.photos/200/300
   altText: Post thumbnail image
 media:
   url: /images/post-4.png
