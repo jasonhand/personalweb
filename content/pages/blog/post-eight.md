@@ -8,10 +8,10 @@ excerpt: >-
   More context that may or may not be helpful
 featuredImage:
   type: ImageBlock
-  url: /images/authentic.jpg
+  url: /images/experiences.jpg
   altText: Post thumbnail image
 media:
-  url: /images/authentic.jpg
+  url: /images/experiences.jpg
   altText: altText of the image
   caption: Caption of the image
   elementId: ''
