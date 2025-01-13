@@ -1,66 +1,56 @@
 ---
 type: PostLayout
-title: Creating Meaningful Developer Experiences 🎁
+title: Creating Meaningful Developer Experiences
 colors: colors-a
-backgroundImage:
-type: BackgroundImage
-url: /images/bg2.jpg
-backgroundSize: cover
-backgroundPosition: center
-backgroundRepeat: no-repeat
-opacity: 75
 date: '2025-01-13'
 author: content/data/team/jason-hand.json
 excerpt: >-
-coming soon.
+  More context that may or may not be helpful
 featuredImage:
-type: ImageBlock
-url: /images/experiences.jpg
-altText: Post thumbnail image
+  type: ImageBlock
+  url: /images/authentic.jpg
+  altText: Post thumbnail image
 media:
-url: /images/experiences.jpg
-altText: altText of the image
-caption: Caption of the image
-elementId: ''
-type: ImageBlock
+  url: /images/authentic.jpg
+  altText: altText of the image
+  caption: Caption of the image
+  elementId: ''
+  type: ImageBlock  
 bottomSections:
-
-elementId: ''
-type: RecentPostsSection
-colors: colors-f
-variant: variant-d
-subtitle: Recent posts
-showDate: true
-showAuthor: false
-showExcerpt: true
-recentCount: 3
-styles:
-self:
-height: auto
-width: wide
-margin:
-- mt-0
-- mb-0
-- ml-0
-- mr-0
-padding:
-- pt-12
-- pb-56
-- pr-4
-- pl-4
-justifyContent: center
-title:
-textAlign: left
-subtitle:
-textAlign: left
-actions:
-justifyContent: center
-showFeaturedImage: true
-showReadMoreLink: true
+  - elementId: ''
+    type: RecentPostsSection
+    colors: colors-f
+    variant: variant-d
+    subtitle: Recent posts
+    showDate: true
+    showAuthor: false
+    showExcerpt: true
+    recentCount: 3
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-12
+          - pb-56
+          - pr-4
+          - pl-4
+        justifyContent: center
+      title:
+        textAlign: left
+      subtitle:
+        textAlign: left
+      actions:
+        justifyContent: center
+    showFeaturedImage: true
+    showReadMoreLink: true
 
 ---
-
-Title:"Beyond Swag: Creating Meaningful Developer Experiences 🎁"
 
 Let’s be honest—stickers, T-shirts, and swag are fun, but they’re not what keeps developers coming back. Developer Relations (DevRel) isn’t about handing out cool merch; it’s about creating meaningful experiences that leave a lasting impact. Swag might attract attention, but authentic engagement turns developers into advocates.
 
