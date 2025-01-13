@@ -46,7 +46,7 @@ bottomSections:
 
 ---
 
-It’s time to have an honest conversation about how Developer Relations (DevRel) measures success. Too often, teams are pressured to justify their value with surface-level metrics—conference talks given, blog posts published, or Twitter followers gained. But here’s the truth: none of those numbers matter if they don’t drive meaningful outcomes for the developer community or the product.
+Too often, teams are pressured to justify their value with surface-level metrics—conference talks given, blog posts published, or Twitter followers gained. But here’s the truth: none of those numbers matter if they don’t drive meaningful outcomes for the developer community or the product.
 
 DevRel should be about impact, not activity. Did your talk inspire developers to solve real problems with your product? Did your tutorial reduce friction in onboarding? Did your engagement spark meaningful feedback that led to better features? These are the outcomes that truly matter. Vanity metrics might look good on a quarterly report, but they don’t reflect whether DevRel is making a difference.
 
