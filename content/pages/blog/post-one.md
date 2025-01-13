@@ -18,7 +18,7 @@ featuredImage:
   url: https://picsum.photos/200/300
   altText: Post thumbnail image
 media:
-  url: /images/post-4.png
+  url: /images/https://picsum.photos/200/300
   altText: altText of the image
   caption: Caption of the image
   elementId: ''
