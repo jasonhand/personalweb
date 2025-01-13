@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: Mastering Just Enough AI: A DevRel Guide to Staying Relevant 🤖
+title: A DevRel Guide to Staying Relevant 🤖
 colors: colors-a
 backgroundImage:
   type: BackgroundImage
