@@ -1,0 +1,10 @@
+{
+    "type": "Person",
+    "firstName": "Jason",
+    "lastName": "Hand",
+    "image": {
+        "type": "ImageBlock",
+        "url": "https://github.com/jasonhand/speaker/blob/main/jhand-headshot.JPG?raw=true",
+        "altText": "Jason Hand photo"
+    }
+}
