@@ -4,12 +4,16 @@
     "onLight": "#050806",
     "dark": "#000000",
     "onDark": "#FBFFF2",
-    "primary": "#0804F6",
-    "onPrimary": "#FBFFF2",
-    "secondary": "#FE491F",
+    "primary": "#ff6e61",
+    "onPrimary": "#050806",
+    "secondary": "#ffcb5c",
     "onSecondary": "#050806",
-    "complementary": "#565862",
-    "onComplementary": "#FBFFF2",
+    "complementary": "#88d8b0",
+    "onComplementary": "#050806",
+    "accent1": "#690571",
+    "onAccent1": "#FBFFF2",
+    "accent2": "#d6006f",
+    "onAccent2": "#FBFFF2",
     "fontBody": "fontPrimary",
     "h1": {
         "size": "6xl",
@@ -58,18 +62,23 @@
         "case": "none",
         "letterSpacing": "normal",
         "horizontalPadding": 20,
-        "verticalPadding": 15
+        "verticalPadding": 15,
+        "backgroundColor": "#ff6e61",
+        "textColor": "#050806"
     },
     "buttonSecondary": {
         "weight": "normal",
         "case": "none",
         "letterSpacing": "normal",
         "horizontalPadding": 20,
-        "verticalPadding": 15
+        "verticalPadding": 15,
+        "backgroundColor": "#ffcb5c",
+        "textColor": "#050806"
     },
     "link": {
         "weight": "normal",
         "case": "uppercase",
-        "letterSpacing": "normal"
+        "letterSpacing": "normal",
+        "color": "#690571"
     }
 }
