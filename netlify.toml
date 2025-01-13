@@ -4,4 +4,3 @@
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-  package = "@datadog/browser-rum"
