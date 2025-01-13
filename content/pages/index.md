@@ -14,7 +14,7 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: >-
-      I’m a developer advocate, speaker, author, musician, and friend.
+      Jason Hand : Developer advocate, speaker, author, musician, and friend.
     subtitle: >-
       I'm setting up a new site to make it easier for me to connect with everyone somewhere not related to social media.
     styles:
