@@ -1,7 +1,7 @@
 import '../css/main.css';
 import Script from "next/script";
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
