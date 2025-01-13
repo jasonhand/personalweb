@@ -15,10 +15,10 @@ excerpt: >-
   More context that may or may not be helpful
 featuredImage:
   type: ImageBlock
-  url: https://picsum.photos/200/300
+  url: /images/public-speaking.jpg
   altText: Post thumbnail image
 media:
-  url: https://picsum.photos/200/300
+  url: /images/public-speaking.jpg
   altText: altText of the image
   caption: Caption of the image
   elementId: ''

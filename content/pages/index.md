@@ -19,7 +19,7 @@ sections:
       Developer advocate, speaker, author, musician, and friend
     styles:
       self:
-        height: auto
+        height: 200px
         width: wide
         margin:
           - mt-0
