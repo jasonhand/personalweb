@@ -12,7 +12,6 @@ backgroundImage:
 date: '2025-01-14'
 author: content/data/team/jason-hand.json
 excerpt: >-
-  
 featuredImage:
   type: ImageBlock
   url: /images/ai-devrel.jpg

@@ -12,7 +12,6 @@ backgroundImage:
 date: '2025-01-14'
 author: content/data/team/jason-hand.json
 excerpt: >-
-  A candid look at how much AI knowledge Developer Relations professionals truly need to excel—without getting lost in the hype.
 featuredImage:
   type: ImageBlock
   url: /images/ai-devrel.jpg
