@@ -2,22 +2,18 @@
 type: ProjectLayout
 title: Google Gemini Partnership Live stream
 colors: colors-a
-date: '2021-12-20'
-client: Awesome client
+date: '2025-01-14'
+client: Google Gemini
 description: >-
   Live stream event with Google Gemini on Vertex and Datadog LLM Observability.
 featuredImage:
   type: ImageBlock
-  url: /images/bg2.jpg
+  url: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/final_keyword_header.width-1200.format-webp.webp
   altText: Project thumbnail image
 media:
   type: ImageBlock
-  url: /images/bg2.jpg
+  url: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/final_keyword_header.width-1200.format-webp.webp
   altText: Project image
 ---
 
-Check back soon.
-
-> “Everybody should learn to program a computer, because it teaches you how to think.”
-
-Coming soon.
+Register for the event [here](https://www.datadoghq.com/partner/googlecloud/security/)
