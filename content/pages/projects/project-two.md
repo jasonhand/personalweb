@@ -16,4 +16,4 @@ media:
   altText: Project image
 ---
 
-Register for the event [here](https://www.datadoghq.com/partner/googlecloud/security/)
+Register for the event [here](https://www.datadoghq.com/partner/googlecloud/vertexai/?utm_source=marketo&utm_medium=organic-email&utm_campaign=webinar-202501googlecloudvertexai&utm_term=invite3&mkt_tok=ODc1LVVWWS02ODUAAAGX4MWG9wWeoeu4MaaB0_eJOc_DNEIQj0Gaue2uKGk3WhFDIV6plrx1nGqQtsoyRAIKtlRce3PVCxdCGjGy6qc)
