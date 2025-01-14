@@ -52,6 +52,8 @@ bottomSections:
 
 ---
 
+>NOTE: AI was used to research this subject. The text below is a mixture of AI generated and real opinions from the author and is currently being used as a placeholder for future posts, while also providing SEO.
+
 Let’s be honest—stickers, T-shirts, and swag are fun, but they’re not what keeps developers coming back. Developer Relations (DevRel) isn’t about handing out cool merch; it’s about creating meaningful experiences that leave a lasting impact. Swag might attract attention, but authentic engagement turns developers into advocates.
 
 So, how do you go beyond swag? Start by solving real problems. Host workshops that help developers overcome specific challenges, create tutorials that address real-world use cases, and build communities where developers can genuinely connect and collaborate. Empower developers with tools, resources, and opportunities that make them better at what they do.

@@ -45,6 +45,8 @@ bottomSections:
     showReadMoreLink: true
 ---
 
+>NOTE: AI was used to research this subject. The text below is a mixture of AI generated and real opinions from the author and is currently being used as a placeholder for future posts, while also providing SEO.
+
 Every Developer Relations (DevRel) team eventually faces the question: Should we build our own tools to engage developers or leverage existing solutions? The answer isn’t always clear-cut. Building custom tools can give your team the exact functionality you need and showcase your product’s strengths. But maintenance costs add up fast. Sometimes, the smarter move is to partner with established platforms that already serve the community well.
 
 Custom tools can be powerful when they solve a unique problem your developer audience faces. If you’re showcasing an API, a bespoke demo can highlight its capabilities better than any off-the-shelf solution. But building tools for things like community chat, documentation, or feedback collection? That’s often reinventing the wheel.

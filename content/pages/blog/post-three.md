@@ -52,6 +52,8 @@ bottomSections:
 
 ---
 
+>NOTE: AI was used to research this subject. The text below is a mixture of AI generated and real opinions from the author and is currently being used as a placeholder for future posts, while also providing SEO.
+
 Too often, teams are pressured to justify their value with surface-level metrics—conference talks given, blog posts published, or Twitter followers gained. But here’s the truth: none of those numbers matter if they don’t drive meaningful outcomes for the developer community or the product.
 
 DevRel should be about impact, not activity. Did your talk inspire developers to solve real problems with your product? Did your tutorial reduce friction in onboarding? Did your engagement spark meaningful feedback that led to better features? These are the outcomes that truly matter. Vanity metrics might look good on a quarterly report, but they don’t reflect whether DevRel is making a difference.

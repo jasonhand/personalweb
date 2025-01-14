@@ -58,6 +58,7 @@ bottomSections:
     showReadMoreLink: true
 
 ---
+>NOTE: AI was used to research this subject. The text below is a mixture of AI generated and real opinions from the author and is currently being used as a placeholder for future posts, while also providing SEO.
 
 Developer Relations (DevRel) professionals don’t need to be AI experts, but ignoring AI altogether is a fast track to irrelevance. The rise of AI in developer tools, APIs, and workflows means that DevRel teams can’t afford to treat it like a black box. But here’s the good news—you don’t need to build models or memorize the math behind neural networks to be effective. What you need is a working knowledge of how AI integrates into the developer experience and how to explain it in plain, relatable terms.
 

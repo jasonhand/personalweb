@@ -51,6 +51,8 @@ bottomSections:
     showReadMoreLink: true
 ---
 
+>NOTE: AI was used to research this subject. The text below is a mixture of AI generated and real opinions from the author and is currently being used as a placeholder for future posts, while also providing SEO.
+
 Chasing community growth by inflating numbers is a tempting trap. It feels good to report skyrocketing user counts, thousands of Slack sign-ups, or impressive Discord memberships. But here’s the hard truth: a massive community that’s disengaged is just an empty room. Developer Relations (DevRel) isn’t about headcount—it’s about building genuine, meaningful relationships with developers who actively engage, contribute, and grow with your product.
 
 Authentic communities are built on trust, shared purpose, and mutual value. That means focusing on quality interactions over mass outreach. Are developers finding value in your documentation? Are they excited to contribute feedback or code? Are they helping each other solve real-world problems? These are the signals of a healthy, thriving community.

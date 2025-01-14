@@ -52,6 +52,8 @@ bottomSections:
 
 ---
 
+>NOTE: AI was used to research this subject. The text below is a mixture of AI generated and real opinions from the author and is currently being used as a placeholder for future posts, while also providing SEO.
+
 Saying “yes” to everything is the fastest way for Developer Relations (DevRel) professionals to burn out and become ineffective. Let’s be real—every team, community member, and product manager will have endless requests: "Can you write this blog post?" "Join this meeting?" "Cover this event?" The instinct to be helpful is strong, but here’s the truth: not every request deserves your time. DevRel isn’t about being universally available; it’s about making strategic choices that drive meaningful impact.
 
 Setting boundaries isn’t selfish—it’s essential. Saying “no” to low-impact tasks means saying “yes” to work that actually moves the needle, whether that’s improving developer onboarding, gathering critical product feedback, or building authentic community engagement. Boundaries protect your energy and ensure you’re working on what matters most. It’s about prioritizing outcomes over optics.
