@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: Google Gemini Partnership Live stream
+title: Live stream - Datadog & Google Gemini
 colors: colors-a
 date: '2025-01-14'
 client: Google Gemini
