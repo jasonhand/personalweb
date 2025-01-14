@@ -1,6 +1,6 @@
 ---
 type: ProjectLayout
-title: Speaking on AI at SCaLE
+title: Speaking on AI, at the Southern California Linux Expo (SCaLE)
 colors: colors-a
 date: '2021-10-15'
 client: SCaLE
