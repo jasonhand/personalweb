@@ -43,7 +43,6 @@ bottomSections:
         justifyContent: center
     showFeaturedImage: true
     showReadMoreLink: true
-
 ---
 
 Every Developer Relations (DevRel) team eventually faces the question: Should we build our own tools to engage developers or leverage existing solutions? The answer isn’t always clear-cut. Building custom tools can give your team the exact functionality you need and showcase your product’s strengths. But maintenance costs add up fast. Sometimes, the smarter move is to partner with established platforms that already serve the community well.
