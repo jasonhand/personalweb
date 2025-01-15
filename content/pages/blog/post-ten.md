@@ -14,10 +14,10 @@ author: content/data/team/jason-hand.json
 excerpt: >-
 featuredImage:
   type: ImageBlock
-  url: /images/ai-devrel.jpg
+  url: /images/storytelling.jpg
   altText: Post thumbnail image
 media:
-  url: /images/ai-devrel.jpg
+  url: /images/storytelling.jpg
   altText: altText of the image
   caption: Caption of the image
   elementId: ''
@@ -57,7 +57,7 @@ bottomSections:
     showReadMoreLink: true
 ---
 
->NOTE: AI was used to research this subject. The text below is a mixture of AI generated and real opinions from the author and is currently being used as a placeholder for future posts, while also providing SEO.
+> NOTE: AI was used to research this subject. The text below is a mixture of AI generated and real opinions from the author and is currently being used as a placeholder for future posts, while also providing SEO.
 
 In the world of Developer Relations, storytelling isn't just a soft skill; it's a strategic weapon that can transform how we engage with our tech communities. We live in an era inundated with technical jargon, complex APIs, and ever-evolving frameworks. Amidst this noise, stories humanize our narratives, making them relatable and memorable. Whether you're evangelizing a new product, sharing a success story, or demystifying a challenging concept, the hook of a good narrative captivates and retains attention. For instance, Apple communicates its features not merely through specifications but through user experiences that highlight real-world impacts. This method resonates deeply, often moving developers from understanding to enthusiastic adoption[5].
 
@@ -66,4 +66,3 @@ To harness the full power of storytelling, start by understanding your audienceâ
 Foster community engagement by encouraging developers to share their own stories; this not only amplifies your message but also nurtures a sense of belonging. This approach aligns with the mission of Developer Relations in the tech space, where building personal connections is crucial. By sharing personal anecdotes and experiences, developers can create a more relatable and authentic narrative that resonates deeply with their audience[2].
 
 Remember, every code commit and API update has the potential to tell a story. Elevate your Developer Relations efforts by making storytelling your cornerstone. Engage your audience with compelling narratives that inspire action and foster deep connections. The next time you share a technical narrative, ask yourself: does it tell a story worth sharing? If it doesn't, keep revising until it does. By integrating storytelling into your Developer Relations strategy, you can create an environment where every choice matters, enhancing the emotional connection between developers and the technology they use[1].
-

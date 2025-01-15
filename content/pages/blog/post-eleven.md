@@ -14,10 +14,10 @@ author: content/data/team/jason-hand.json
 excerpt: >-
 featuredImage:
   type: ImageBlock
-  url: /images/ai-devrel.jpg
+  url: /images/fuel.jpg
   altText: Post thumbnail image
 media:
-  url: /images/ai-devrel.jpg
+  url: /images/fuel.jpg
   altText: altText of the image
   caption: Caption of the image
   elementId: ''
@@ -57,7 +57,7 @@ bottomSections:
     showReadMoreLink: true
 ---
 
->NOTE: AI was used to research this subject. The text below is a mixture of AI generated and real opinions from the author and is currently being used as a placeholder for future posts, while also providing SEO.
+> NOTE: AI was used to research this subject. The text below is a mixture of AI generated and real opinions from the author and is currently being used as a placeholder for future posts, while also providing SEO.
 
 Navigating the whirlwind of conferences and meetings can indeed feel like sprinting a marathon. It's easy to get caught up in the hustle, pushing emotional limits to network, learn, and share. For Developer Relations professionals, the energy we expend is as crucial as the connections we forge. Think of your emotional fuel tank as a valuable resource, akin to the code you write—both require regular maintenance and thoughtful input.
 
@@ -70,4 +70,3 @@ Periodically checking in with yourself during these intense schedules is crucial
 Protecting that emotional fuel tank is vital for fostering authentic connections. By doing so, you can ensure that your interactions are not only productive but also meaningful and memorable. This approach aligns with the principles of emotional intelligence, which emphasizes self-awareness, self-regulation, and empathy in professional settings (Source: [5]).
 
 In summary, maintaining your emotional fuel tank is as important as any other aspect of your professional life. By allocating time for self-care, setting realistic goals, and being mindful of your emotional state, you can navigate conferences and meetings with greater ease and authenticity. This not only enhances your personal well-being but also strengthens your relationships within the community you serve.
-

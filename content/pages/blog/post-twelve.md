@@ -12,13 +12,13 @@ backgroundImage:
 date: '2025-01-14'
 author: content/data/team/jason-hand.json
 excerpt: >-
-  
+
 featuredImage:
   type: ImageBlock
-  url: /images/ai-devrel.jpg
+  url: /images/trust.jpg
   altText: Post thumbnail image
 media:
-  url: /images/ai-devrel.jpg
+  url: /images/trust.jpg
   altText: altText of the image
   caption: Caption of the image
   elementId: ''
@@ -58,7 +58,7 @@ bottomSections:
     showReadMoreLink: true
 ---
 
->NOTE: AI was used to research this subject. The text below is a mixture of AI generated and real opinions from the author and is currently being used as a placeholder for future posts, while also providing SEO.
+> NOTE: AI was used to research this subject. The text below is a mixture of AI generated and real opinions from the author and is currently being used as a placeholder for future posts, while also providing SEO.
 
 Engaging with developers without coming off as cringe-worthy is indeed an art form that every Developer Relations professional should master. It all boils down to respect, authenticity, and genuine interest. Developers thrive on real conversations, not catchy slogans or overly rehearsed pitches. Instead of pushing your product features relentlessly, focus on understanding the pain points that developers face in their everyday work. This approach is supported by research in DevRel strategies, which emphasize the importance of empathy and understanding in building strong relationships with developers[1].
 
@@ -83,4 +83,3 @@ Ensuring your presence in relevant online communities like GitHub, Stack Overflo
 The best relationships in tech are built on mutual respect and shared learning, not on transactional exchanges. So, put in the effort to create meaningful interactions and steer clear of the cringe. By engaging authentically, contributing genuinely, and always listening more than you talk, you can build trust with developers. This approach aligns with the principles of effective DevRel strategies that focus on creating value by understanding and addressing developer needs[1].
 
 In summary, engaging with developers authentically requires respect, authenticity, and genuine interest. It involves understanding their pain points, engaging in honest dialogue, creating resonant content, participating actively in online communities, and building trust through mutual respect. By following these principles, Developer Relations professionals can foster meaningful relationships with developers and avoid coming off as cringe-worthy.
-
