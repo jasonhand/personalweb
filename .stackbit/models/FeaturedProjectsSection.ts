@@ -57,7 +57,7 @@ export const FeaturedProjectsSectionModel: Model = {
                 type: 'reference',
                 models: ['ProjectLayout']
             },
-            default: ['content/pages/projects/project-three.md', 'content/pages/projects/project-two.md', 'content/pages/projects/project-one.md']
+            default: ['content/pages/projects/DatadogOn.md', 'content/pages/projects/Live_stream_Datadog_and_Google_Gemini.md', 'content/pages/projects/Speaking_On_AI_at_the_Southern_California_Linux_Expo.md']
         },
         {
             type: 'enum',

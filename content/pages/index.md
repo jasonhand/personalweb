@@ -57,9 +57,9 @@ sections:
     showReadMoreLink: true
     variant: variant-b
     projects:
-      - content/pages/projects/project-two.md
-      - content/pages/projects/project-three.md
-      - content/pages/projects/project-one.md
+      - content/pages/projects/Live_stream_Datadog_and_Google_Gemini.md
+      - content/pages/projects/DatadogOn.md
+      - content/pages/projects/Speaking_On_AI_at_the_Southern_California_Linux_Expo.md
     styles:
       self:
         height: auto
@@ -124,5 +124,4 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-end
-
 ---

@@ -13,7 +13,7 @@
                 "showDescription": true,
                 "showReadMoreLink": true,
                 "showFeaturedImage": true,
-                "projects": ["content/pages/projects/project-one.md", "content/pages/projects/project-two.md"],
+                "projects": ["content/pages/projects/Speaking_On_AI_at_the_Southern_California_Linux_Expo.md", "content/pages/projects/Live_stream_Datadog_and_Google_Gemini.md"],
                 "actions": [
                     {
                         "type": "Link",
@@ -53,7 +53,7 @@
                 "showDescription": true,
                 "showReadMoreLink": true,
                 "showFeaturedImage": true,
-                "projects": ["content/pages/projects/project-one.md", "content/pages/projects/project-two.md", "content/pages/projects/project-three.md"],
+                "projects": ["content/pages/projects/Speaking_On_AI_at_the_Southern_California_Linux_Expo.md", "content/pages/projects/Live_stream_Datadog_and_Google_Gemini.md", "content/pages/projects/DatadogOn.md"],
                 "actions": [
                     {
                         "type": "Link",
@@ -93,7 +93,7 @@
                 "showDescription": true,
                 "showReadMoreLink": true,
                 "showFeaturedImage": true,
-                "projects": ["content/pages/projects/project-one.md", "content/pages/projects/project-two.md", "content/pages/projects/project-three.md"],
+                "projects": ["content/pages/projects/Speaking_On_AI_at_the_Southern_California_Linux_Expo.md", "content/pages/projects/Live_stream_Datadog_and_Google_Gemini.md", "content/pages/projects/DatadogOn.md"],
                 "actions": [
                     {
                         "type": "Link",
