@@ -90,7 +90,7 @@ sections:
     showFeaturedImage: false
     actions:
       - type: Link
-        label: See all posts
+        label: see all thoughts
         url: /thoughts
     posts:
       - content/pages/thoughts/post-six.md

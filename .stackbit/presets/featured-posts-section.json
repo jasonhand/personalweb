@@ -17,8 +17,8 @@
                 "actions": [
                     {
                         "type": "Link",
-                        "label": "See all posts",
-                        "altText": "See all posts",
+                        "label": "see all thoughts",
+                        "altText": "see all thoughts",
                         "url": "/thoughts"
                     }
                 ],
@@ -57,8 +57,8 @@
                 "actions": [
                     {
                         "type": "Link",
-                        "label": "See all posts",
-                        "altText": "See all posts",
+                        "label": "see all thoughts",
+                        "altText": "see all thoughts",
                         "url": "/thoughts"
                     }
                 ],
@@ -130,8 +130,8 @@
                 "actions": [
                     {
                         "type": "Link",
-                        "label": "See all posts",
-                        "altText": "See all posts",
+                        "label": "see all thoughts",
+                        "altText": "see all thoughts",
                         "url": "/thoughts"
                     }
                 ],
@@ -170,8 +170,8 @@
                 "actions": [
                     {
                         "type": "Link",
-                        "label": "See all posts",
-                        "altText": "See all posts",
+                        "label": "see all thoughts",
+                        "altText": "see all thoughts",
                         "url": "/thoughts"
                     }
                 ],
