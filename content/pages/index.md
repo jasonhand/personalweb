@@ -91,11 +91,11 @@ sections:
     actions:
       - type: Link
         label: See all posts
-        url: /blog
+        url: /thoughts
     posts:
-      - content/pages/blog/post-six.md
-      - content/pages/blog/post-four.md
-      - content/pages/blog/post-three.md
+      - content/pages/thoughts/post-six.md
+      - content/pages/thoughts/post-four.md
+      - content/pages/thoughts/post-three.md
     showDate: true
     showExcerpt: true
     showReadMoreLink: true

@@ -5,8 +5,8 @@ export const PostLayoutModel: Model = {
     type: 'page',
     name: 'PostLayout',
     label: 'Post',
-    urlPath: '/blog/{slug}',
-    filePath: 'content/pages/blog/{slug}.md',
+    urlPath: '/thoughts/{slug}',
+    filePath: 'content/pages/thoughts/{slug}.md',
     thumbnail: 'https://assets.stackbit.com/components/models/thumbnails/default.png',
     fieldGroups: [
         ...seoFieldGroups,

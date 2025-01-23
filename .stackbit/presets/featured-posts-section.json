@@ -13,13 +13,13 @@
                 "showAuthor": false,
                 "showExcerpt": true,
                 "showReadMoreLink": true,
-                "posts": ["content/pages/blog/post-five.md", "content/pages/blog/post-four.md"],
+                "posts": ["content/pages/thoughts/post-five.md", "content/pages/thoughts/post-four.md"],
                 "actions": [
                     {
                         "type": "Link",
                         "label": "See all posts",
                         "altText": "See all posts",
-                        "url": "/blog"
+                        "url": "/thoughts"
                     }
                 ],
                 "styles": {
@@ -53,13 +53,13 @@
                 "showAuthor": false,
                 "showExcerpt": true,
                 "showReadMoreLink": true,
-                "posts": ["content/pages/blog/post-five.md", "content/pages/blog/post-four.md", "content/pages/blog/post-three.md"],
+                "posts": ["content/pages/thoughts/post-five.md", "content/pages/thoughts/post-four.md", "content/pages/thoughts/post-three.md"],
                 "actions": [
                     {
                         "type": "Link",
                         "label": "See all posts",
                         "altText": "See all posts",
-                        "url": "/blog"
+                        "url": "/thoughts"
                     }
                 ],
                 "styles": {
@@ -93,7 +93,7 @@
                 "showAuthor": false,
                 "showExcerpt": true,
                 "showReadMoreLink": true,
-                "posts": ["content/pages/blog/post-five.md"],
+                "posts": ["content/pages/thoughts/post-five.md"],
                 "actions": [],
                 "styles": {
                     "self": {
@@ -126,13 +126,13 @@
                 "showAuthor": false,
                 "showExcerpt": true,
                 "showReadMoreLink": true,
-                "posts": ["content/pages/blog/post-five.md", "content/pages/blog/post-four.md", "content/pages/blog/post-three.md"],
+                "posts": ["content/pages/thoughts/post-five.md", "content/pages/thoughts/post-four.md", "content/pages/thoughts/post-three.md"],
                 "actions": [
                     {
                         "type": "Link",
                         "label": "See all posts",
                         "altText": "See all posts",
-                        "url": "/blog"
+                        "url": "/thoughts"
                     }
                 ],
                 "styles": {
@@ -166,13 +166,13 @@
                 "showAuthor": false,
                 "showExcerpt": true,
                 "showReadMoreLink": true,
-                "posts": ["content/pages/blog/post-five.md", "content/pages/blog/post-four.md", "content/pages/blog/post-three.md"],
+                "posts": ["content/pages/thoughts/post-five.md", "content/pages/thoughts/post-four.md", "content/pages/thoughts/post-three.md"],
                 "actions": [
                     {
                         "type": "Link",
                         "label": "See all posts",
                         "altText": "See all posts",
-                        "url": "/blog"
+                        "url": "/thoughts"
                     }
                 ],
                 "styles": {

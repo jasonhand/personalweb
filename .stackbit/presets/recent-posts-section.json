@@ -18,7 +18,7 @@
                     {
                         "label": "See all posts",
                         "altText": "See all posts",
-                        "url": "/blog",
+                        "url": "/thoughts",
                         "type": "Link"
                     }
                 ],
@@ -58,7 +58,7 @@
                     {
                         "label": "See all posts",
                         "altText": "See all posts",
-                        "url": "/blog",
+                        "url": "/thoughts",
                         "type": "Link"
                     }
                 ],
@@ -98,7 +98,7 @@
                     {
                         "label": "See all posts",
                         "altText": "See all posts",
-                        "url": "/blog",
+                        "url": "/thoughts",
                         "type": "Link"
                     }
                 ],
@@ -138,7 +138,7 @@
                     {
                         "label": "See all posts",
                         "altText": "See all posts",
-                        "url": "/blog",
+                        "url": "/thoughts",
                         "type": "Link"
                     }
                 ],

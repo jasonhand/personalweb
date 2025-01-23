@@ -137,7 +137,7 @@
                             {
                                 "type": "Link",
                                 "label": "See all posts",
-                                "url": "/blog",
+                                "url": "/thoughts",
                                 "showIcon": true,
                                 "icon": "arrowRight",
                                 "iconPosition": "right"

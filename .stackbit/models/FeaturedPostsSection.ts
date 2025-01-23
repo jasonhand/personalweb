@@ -57,7 +57,7 @@ export const FeaturedPostsSectionModel: Model = {
                 type: 'reference',
                 models: ['PostLayout']
             },
-            default: ['content/pages/blog/post-three.md', 'content/pages/blog/post-two.md', 'content/pages/blog/post-one.md']
+            default: ['content/pages/thoughts/post-three.md', 'content/pages/thoughts/post-two.md', 'content/pages/thoughts/post-one.md']
         },
         {
             type: 'enum',

@@ -8,11 +8,11 @@ description: >-
   Live stream event with Google Gemini on Vertex and Datadog LLM Observability.
 featuredImage:
   type: ImageBlock
-  url: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/final_keyword_header.width-1200.format-webp.webp
+  url: https://storage.googleapis.com/gweb-unithoughts-publish-prod/images/final_keyword_header.width-1200.format-webp.webp
   altText: Project thumbnail image
 media:
   type: ImageBlock
-  url: https://storage.googleapis.com/gweb-uniblog-publish-prod/images/final_keyword_header.width-1200.format-webp.webp
+  url: https://storage.googleapis.com/gweb-unithoughts-publish-prod/images/final_keyword_header.width-1200.format-webp.webp
   altText: Project image
 ---
 
