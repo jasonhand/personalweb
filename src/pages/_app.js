@@ -17,12 +17,14 @@ datadogRum.init({
     defaultPrivacyLevel: 'mask-user-input'
 });
 
-datadogRum.setUser({
-    id: '1234',
-    name: 'John Doe',
-    email: 'john@doe.com',
-    plan: 'premium'
-});
+datadogRum.getUser();
+
+//datadogRum.setUser({
+//    id: '1234',
+//    name: 'John Doe',
+//    email: 'john@doe.com',
+//    plan: 'premium'
+//});
 
 export default function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />;
