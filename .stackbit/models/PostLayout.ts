@@ -21,7 +21,7 @@ export const PostLayoutModel: Model = {
             type: 'string',
             name: 'title',
             label: 'Title',
-            default: 'This is a blog post title',
+            default: 'This is thought take',
             required: true
         },
         {

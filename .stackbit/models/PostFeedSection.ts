@@ -28,7 +28,7 @@ export const PostFeedSectionModel: Model = {
             type: 'string',
             name: 'subtitle',
             label: 'Subtitle',
-            default: 'Blog posts'
+            default: 'Thoughts'
         },
         {
             type: 'list',

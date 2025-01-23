@@ -30,7 +30,7 @@ export const FeaturedPostsSectionModel: Model = {
             type: 'string',
             name: 'subtitle',
             label: 'Subtitle',
-            default: 'Featured blog posts section example'
+            default: 'Featured thoughts section example'
         },
         {
             type: 'list',

@@ -29,7 +29,7 @@ export const RecentPostsSectionModel: Model = {
             type: 'string',
             name: 'subtitle',
             label: 'Subtitle',
-            default: 'Latest blog posts section example'
+            default: 'Latest thoughts section example'
         },
         {
             type: 'list',

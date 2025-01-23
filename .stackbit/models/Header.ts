@@ -54,9 +54,9 @@ export const HeaderModel: Model = {
                 },
                 {
                     type: 'Link',
-                    label: 'Blog',
+                    label: 'Thoughts',
                     url: '/',
-                    altText: 'Blog'
+                    altText: 'Thoughts'
                 }
             ]
         },

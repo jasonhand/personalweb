@@ -4,7 +4,7 @@ import { seoFields, seoFieldGroups } from './seo-fields';
 export const PostFeedLayoutModel: Model = {
     type: 'page',
     name: 'PostFeedLayout',
-    label: 'Blog',
+    label: 'Thoughts',
     labelField: 'title',
     hideContent: true,
     singleInstance: true,
