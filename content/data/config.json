@@ -22,6 +22,16 @@
                 "type": "Link",
                 "label": "Thoughts",
                 "url": "/thoughts"
+            },
+            {
+                "type": "Link",
+                "label": "AI",
+                "url": "/ai"
+            },
+            {
+                "type": "Link",
+                "label": "DevRel",
+                "url": "/devrel"
             }
         ],
         "socialLinks": [

@@ -135,7 +135,23 @@ sections:
         styles:
           self:
             textAlign: left
-    columns: 3
+      - type: FeaturedItem
+        actions:
+          - type: Link
+            label: Shop
+            url: 'https://mountainvanapparel.etsy.com'
+        styles:
+          self:
+            textAlign: left
+      - type: FeaturedItem
+        actions:
+          - type: Link
+            label: Contact
+            url: 'https://forms.gle/PxmzJ3QTczS1zzJFA'
+        styles:
+          self:
+            textAlign: left
+    columns: 4
     spacingX: 120
     spacingY: 0
     styles:
