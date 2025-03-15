@@ -5,7 +5,7 @@ import { iconMap } from '../../svgs';
 import { Annotated } from '@/components/Annotated';
 
 export default function Action(props) {
-    const { type, elementId, className, label, altText, url, showIcon, icon, iconPosition = 'right', style = 'primary' } = props;
+    const { type, elementId, className, label, altText, url, showIcon, icon, iconPosition = 'right', style = 'primary', target } = props;
     const IconComponent = icon ? iconMap[icon] : null;
     return (
         <Annotated content={props}>
@@ -13,6 +13,8 @@ export default function Action(props) {
                 href={url}
                 aria-label={altText}
                 id={elementId || null}
+                target={target}
+                rel={target === '_blank' ? 'noopener noreferrer' : undefined}
                 className={classNames(
                     'sb-component',
                     'sb-component-block',

@@ -20,11 +20,6 @@
             },
             {
                 "type": "Link",
-                "label": "AI",
-                "url": "/ai"
-            },
-            {
-                "type": "Link",
                 "label": "DevRel",
                 "url": "/devrel"
             },
