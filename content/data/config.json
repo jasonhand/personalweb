@@ -40,6 +40,12 @@
                 "label": "AI Experiments",
                 "url": "https://ai-experiments-lab.netlify.app/",
                 "target": "_blank"
+            },
+            {
+                "type": "Link",
+                "label": "PsPsPs",
+                "url": "https://psps.netlify.app/",
+                "target": "_blank"
             }
         ],
         "socialLinks": [
