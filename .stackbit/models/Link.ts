@@ -171,6 +171,23 @@ export const LinkModel: Model = {
             label: 'Element ID',
             description: 'The unique ID for an HTML element, must not contain whitespace',
             default: ''
+        },
+        {
+            type: 'enum',
+            name: 'target',
+            group: 'settings',
+            label: 'Open in',
+            options: [
+                {
+                    label: 'Same tab',
+                    value: ''
+                },
+                {
+                    label: 'New tab',
+                    value: '_blank'
+                }
+            ],
+            default: ''
         }
     ]
 };

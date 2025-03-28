@@ -20,18 +20,32 @@
             },
             {
                 "type": "Link",
-                "label": "Thoughts",
-                "url": "/thoughts"
-            },
-            {
-                "type": "Link",
-                "label": "AI",
-                "url": "/ai"
-            },
-            {
-                "type": "Link",
                 "label": "DevRel",
                 "url": "/devrel"
+            },
+            {
+                "type": "Link",
+                "label": "Ignite Karaoke",
+                "url": "https://jasonhand.github.io/js-ignite-karaoke/",
+                "target": "_blank"
+            },
+            {
+                "type": "Link",
+                "label": "Vinyl Viewer",
+                "url": "https://jasonhand.github.io/vinyl-viewer/",
+                "target": "_blank"
+            },
+            {
+                "type": "Link",
+                "label": "AI Experiments",
+                "url": "https://ai-experiments-lab.netlify.app/",
+                "target": "_blank"
+            },
+            {
+                "type": "Link",
+                "label": "PsPsPs",
+                "url": "https://psps.netlify.app/",
+                "target": "_blank"
             }
         ],
         "socialLinks": [
@@ -63,12 +77,6 @@
                 "type": "Link",
                 "label": "Info",
                 "url": "/info",
-                "altText": ""
-            },
-            {
-                "type": "Link",
-                "label": "thoughts",
-                "url": "/thoughts",
                 "altText": ""
             },
             {

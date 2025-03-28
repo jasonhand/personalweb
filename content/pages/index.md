@@ -28,7 +28,7 @@ sections:
           - mr-0
         padding:
           - pt-36
-          - pb-48
+          - pb-16
           - pl-4
           - pr-4
         alignItems: center
@@ -57,9 +57,9 @@ sections:
     showReadMoreLink: true
     variant: variant-b
     projects:
+      - content/pages/projects/Speaking_On_AI_at_the_Southern_California_Linux_Expo.md
       - content/pages/projects/Live_stream_Datadog_and_Google_Gemini.md
       - content/pages/projects/DatadogOn.md
-      - content/pages/projects/Speaking_On_AI_at_the_Southern_California_Linux_Expo.md
     styles:
       self:
         height: auto
@@ -70,7 +70,7 @@ sections:
           - ml-0
           - mr-0
         padding:
-          - pt-24
+          - pt-12
           - pb-24
           - pl-4
           - pr-4
@@ -82,46 +82,4 @@ sections:
       actions:
         justifyContent: flex-end
     subtitle: 'Projects'
-  - type: FeaturedPostsSection
-    elementId: ''
-    colors: colors-f
-    variant: variant-d
-    subtitle: Featured Posts
-    showFeaturedImage: false
-    actions:
-      - type: Link
-        label: see all thoughts
-        url: /thoughts
-    posts:
-      - content/pages/thoughts/post-six.md
-      - content/pages/thoughts/post-four.md
-      - content/pages/thoughts/post-three.md
-    showDate: true
-    showExcerpt: true
-    showReadMoreLink: true
-    styles:
-      self:
-        height: auto
-        width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-0
-          - mr-0
-        padding:
-          - pt-28
-          - pb-48
-          - pl-4
-          - pr-4
-        justifyContent: center
-        borderRadius: none
-        borderWidth: 0
-        borderStyle: none
-        borderColor: border-dark
-      title:
-        textAlign: left
-      subtitle:
-        textAlign: left
-      actions:
-        justifyContent: flex-end
 ---
