@@ -5,7 +5,7 @@ import { iconMap } from '../../svgs';
 import { Annotated } from '@/components/Annotated';
 
 export default function Social(props) {
-    const { elementId, className, label, altText, url, icon = 'facebook' } = props;
+    const { elementId, className, label, altText, url, icon = 'facebook', target } = props;
     const IconComponent = iconMap[icon];
 
     return (
@@ -14,6 +14,7 @@ export default function Social(props) {
                 href={url}
                 aria-label={altText}
                 id={elementId || null}
+                target={target}
                 className={classNames('sb-component', 'sb-component-block', 'sb-component-social', className)}
             >
                 {label && <span className="sr-only">{label}</span>}

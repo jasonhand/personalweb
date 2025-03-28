@@ -15,11 +15,15 @@ sections:
     backgroundSize: full
     title: >-
       Jason Hand
+    media:
+      type: ImageBlock
+      url: /images/Jhand_AI_Profile.png
+      altText: Jason Hand AI Profile
     subtitle: >-
       Developer advocate, speaker, author, musician, and friend
     styles:
       self:
-        height: 200px
+        height: auto
         width: wide
         margin:
           - mt-0
@@ -27,7 +31,7 @@ sections:
           - ml-0
           - mr-0
         padding:
-          - pt-36
+          - pt-12
           - pb-16
           - pl-4
           - pr-4
@@ -42,6 +46,17 @@ sections:
         textAlign: left
       actions:
         justifyContent: flex-start
+      media:
+        margin:
+          - mt-0
+          - mb-0
+          - ml-0
+          - mr-0
+        padding:
+          - pt-0
+          - pb-0
+          - pl-0
+          - pr-0
     type: HeroSection
     actions: []
   - colors: colors-f

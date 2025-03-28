@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/router';
 import classNames from 'classnames';
 
@@ -9,7 +9,7 @@ import CloseIcon from '../../svgs/close';
 import MenuIcon from '../../svgs/menu';
 
 export default function Header(props) {
-    const { headerVariant, isSticky, title, isTitleVisible, logo, primaryLinks = [], socialLinks = [], styles = {} } = props;
+    const { headerVariant, isSticky, title, isTitleVisible, logo, primaryLinks = [], socialLinks = [], webAppLinks = [], styles = {} } = props;
     const headerWidth = styles.self?.width ?? 'narrow';
     return (
         <header className={classNames('sb-component', 'sb-component-header', isSticky ? 'sticky top-0 z-10' : 'relative', 'border-b', 'border-current')}>
@@ -29,6 +29,7 @@ export default function Header(props) {
                     logo={logo}
                     primaryLinks={primaryLinks}
                     socialLinks={socialLinks}
+                    webAppLinks={webAppLinks}
                 />
             </div>
         </header>
@@ -50,13 +51,13 @@ function HeaderVariants(props) {
 }
 
 function HeaderVariantA(props) {
-    const { primaryLinks = [], socialLinks = [], ...logoProps } = props;
+    const { primaryLinks = [], socialLinks = [], webAppLinks = [], ...logoProps } = props;
     return (
         <div className="flex items-stretch relative">
             <SiteLogoLink {...logoProps} />
             {primaryLinks.length > 0 && (
                 <ul className="hidden lg:flex divide-x divide-current border-r border-current">
-                    <ListOfLinks links={primaryLinks} inMobileMenu={false} />
+                    <ListOfLinks links={primaryLinks} inMobileMenu={false} webAppLinks={webAppLinks} />
                 </ul>
             )}
             {socialLinks.length > 0 && (
@@ -70,13 +71,13 @@ function HeaderVariantA(props) {
 }
 
 function HeaderVariantB(props) {
-    const { primaryLinks = [], socialLinks = [], ...logoProps } = props;
+    const { primaryLinks = [], socialLinks = [], webAppLinks = [], ...logoProps } = props;
     return (
         <div className="flex items-stretch relative">
             <SiteLogoLink {...logoProps} />
             {primaryLinks.length > 0 && (
                 <ul className="hidden lg:flex border-l border-current divide-x divide-current ml-auto">
-                    <ListOfLinks links={primaryLinks} inMobileMenu={false} />
+                    <ListOfLinks links={primaryLinks} inMobileMenu={false} webAppLinks={webAppLinks} />
                 </ul>
             )}
             {socialLinks.length > 0 && (
@@ -94,7 +95,7 @@ function HeaderVariantB(props) {
 }
 
 function HeaderVariantC(props) {
-    const { primaryLinks = [], socialLinks = [], ...logoProps } = props;
+    const { primaryLinks = [], socialLinks = [], webAppLinks = [], ...logoProps } = props;
     return (
         <div className="flex items-stretch relative">
             <SiteLogoLink {...logoProps} />
@@ -109,7 +110,7 @@ function HeaderVariantC(props) {
                         'ml-auto': primaryLinks.length === 0
                     })}
                 >
-                    <ListOfLinks links={primaryLinks} inMobileMenu={false} />
+                    <ListOfLinks links={primaryLinks} inMobileMenu={false} webAppLinks={webAppLinks} />
                 </ul>
             )}
             {(primaryLinks.length > 0 || socialLinks.length > 0) && <MobileMenu {...props} />}
@@ -118,7 +119,7 @@ function HeaderVariantC(props) {
 }
 
 function MobileMenu(props) {
-    const { primaryLinks = [], socialLinks = [], ...logoProps } = props;
+    const { primaryLinks = [], socialLinks = [], webAppLinks = [], ...logoProps } = props;
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const router = useRouter();
 
@@ -153,7 +154,7 @@ function MobileMenu(props) {
                         <div className="flex flex-col justify-center grow px-4 py-20 space-y-12">
                             {primaryLinks.length > 0 && (
                                 <ul className="space-y-6">
-                                    <ListOfLinks links={primaryLinks} inMobileMenu={true} />
+                                    <ListOfLinks links={primaryLinks} inMobileMenu={true} webAppLinks={webAppLinks} />
                                 </ul>
                             )}
                             {socialLinks.length > 0 && (
@@ -183,15 +184,112 @@ function SiteLogoLink({ title, isTitleVisible, logo }) {
     );
 }
 
-function ListOfLinks({ links, inMobileMenu }) {
-    return links.map((link, index) => (
-        <li key={index} className={classNames(inMobileMenu ? 'text-center w-full' : 'inline-flex items-stretch')}>
-            <Action
-                {...link}
-                className={classNames(inMobileMenu ? 'text-xl' : 'sb-component-link-fill p-4', 'font-normal', 'text-base', 'tracking-widest', 'uppercase')}
-            />
-        </li>
-    ));
+function ListOfLinks({ links, inMobileMenu, webAppLinks = [] }) {
+    const [openDropdown, setOpenDropdown] = useState(null);
+    const dropdownRefs = useRef({});
+
+    // Close dropdown when clicking outside
+    useEffect(() => {
+        function handleClickOutside(event) {
+            if (openDropdown !== null && dropdownRefs.current[openDropdown] && !dropdownRefs.current[openDropdown].contains(event.target)) {
+                setOpenDropdown(null);
+            }
+        }
+
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, [openDropdown]);
+
+    // Handler for dropdown toggle
+    const toggleDropdown = (index) => {
+        if (openDropdown === index) {
+            setOpenDropdown(null);
+        } else {
+            setOpenDropdown(index);
+        }
+    };
+
+    return links.map((link, index) => {
+        // Check if this link has a dropdown
+        const hasDropdown = link.hasDropdown && webAppLinks && webAppLinks.length > 0;
+
+        if (hasDropdown) {
+            return (
+                <li 
+                    key={index} 
+                    className={classNames(
+                        inMobileMenu ? 'text-center w-full' : 'inline-flex items-stretch relative',
+                        'dropdown-container'
+                    )}
+                    ref={el => (dropdownRefs.current[index] = el)}
+                >
+                    <div 
+                        className={classNames(
+                            inMobileMenu ? 'text-xl cursor-pointer' : 'sb-component-link-fill p-4 cursor-pointer', 
+                            'font-normal', 
+                            'text-base', 
+                            'tracking-widest', 
+                            'uppercase'
+                        )}
+                        onClick={() => toggleDropdown(index)}
+                    >
+                        {link.label}
+                    </div>
+                    
+                    {/* Desktop dropdown */}
+                    {!inMobileMenu && openDropdown === index && (
+                        <div className="absolute top-full left-0 bg-black text-white border border-current shadow-lg z-10 min-w-[280px] px-3">
+                            {webAppLinks.map((app, appIndex) => (
+                                <Link
+                                    key={appIndex}
+                                    href={app.url}
+                                    target={app.target}
+                                    className="block py-3 px-3 hover:bg-gray-800 whitespace-nowrap text-sm"
+                                >
+                                    {app.label}
+                                </Link>
+                            ))}
+                        </div>
+                    )}
+                    
+                    {/* Mobile dropdown content */}
+                    {inMobileMenu && openDropdown === index && (
+                        <div className="mt-4 space-y-4 bg-gray-800 p-4 rounded">
+                            {webAppLinks.map((app, appIndex) => (
+                                <div key={appIndex} className="px-4">
+                                    <Link
+                                        href={app.url}
+                                        target={app.target}
+                                        className="block py-2 text-sm font-normal tracking-wide text-white"
+                                    >
+                                        {app.label}
+                                    </Link>
+                                </div>
+                            ))}
+                        </div>
+                    )}
+                </li>
+            );
+        }
+
+        // Regular link without dropdown
+        return (
+            <li key={index} className={classNames(inMobileMenu ? 'text-center w-full' : 'inline-flex items-stretch')}>
+                <Action
+                    {...link}
+                    className={classNames(
+                        inMobileMenu ? 'text-xl' : 'sb-component-link-fill p-4', 
+                        'font-normal', 
+                        'text-base', 
+                        'tracking-widest', 
+                        'uppercase'
+                    )}
+                />
+            </li>
+        );
+    });
 }
 
 function ListOfSocialLinks({ links, inMobileMenu = false }) {

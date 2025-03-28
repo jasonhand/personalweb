@@ -25,6 +25,40 @@
             },
             {
                 "type": "Link",
+                "label": "Web Apps",
+                "url": "javascript:void(0)",
+                "hasDropdown": true
+            }
+        ],
+        "socialLinks": [
+            {
+                "type": "Social",
+                "altText": "Youtube",
+                "label": "Youtube",
+                "url": "https://youtube.com/@jhand",
+                "icon": "youtube",
+                "target": "_blank"
+            },
+            {
+                "type": "Social",
+                "altText": "GitHub",
+                "label": "GitHub",
+                "url": "https://github.com/jasonhand",
+                "icon": "github",
+                "target": "_blank"
+            },
+            {
+                "type": "Social",
+                "altText": "TikTok",
+                "label": "TikTok",
+                "url": "https://www.tiktok.com/@jason.hand",
+                "icon": "tiktok",
+                "target": "_blank"
+            }
+        ],
+        "webAppLinks": [
+            {
+                "type": "Link",
                 "label": "Ignite Karaoke",
                 "url": "https://jasonhand.github.io/js-ignite-karaoke/",
                 "target": "_blank"
@@ -37,31 +71,15 @@
             },
             {
                 "type": "Link",
-                "label": "AI Experiments",
-                "url": "https://ai-experiments-lab.netlify.app/",
+                "label": "PsPsPs",
+                "url": "https://pspsps.app",
                 "target": "_blank"
             },
             {
                 "type": "Link",
-                "label": "PsPsPs",
-                "url": "https://psps.netlify.app/",
+                "label": "AI Experiments",
+                "url": "https://ai-tools-lab.com",
                 "target": "_blank"
-            }
-        ],
-        "socialLinks": [
-            {
-                "type": "Social",
-                "altText": "Youtube",
-                "label": "Youtube",
-                "url": "https://youtube.com/@jhand",
-                "icon": "youtube"
-            },
-            {
-                "type": "Social",
-                "altText": "GitHub",
-                "label": "GitHub",
-                "url": "https://github.com/jasonhand",
-                "icon": "github"
             }
         ],
         "styles": {
