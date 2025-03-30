@@ -25,6 +25,11 @@
             },
             {
                 "type": "Link",
+                "label": "Panos",
+                "url": "/pano"
+            },
+            {
+                "type": "Link",
                 "label": "Web Apps",
                 "url": "javascript:void(0)",
                 "hasDropdown": true

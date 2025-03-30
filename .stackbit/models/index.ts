@@ -22,6 +22,7 @@ import { LinkModel } from './Link';
 import { MediaGallerySectionModel } from './MediaGallerySection';
 import { MetaTagModel } from './MetaTag';
 import { PageLayoutModel } from './PageLayout';
+import { PanoramaSectionModel } from './PanoramaSection';
 import { PersonModel } from './Person';
 import { PostFeedLayoutModel } from './PostFeedLayout';
 import { PostFeedSectionModel } from './PostFeedSection';
@@ -70,6 +71,7 @@ export const allModels = [
     MediaGallerySectionModel,
     MetaTagModel,
     PageLayoutModel,
+    PanoramaSectionModel,
     PersonModel,
     PostFeedLayoutModel,
     PostFeedSectionModel,
